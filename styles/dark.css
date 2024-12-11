@@ -1,4 +1,10 @@
-:root .theme_dark {
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_dark {
   --background-color: #000028;
   --text-color: #000028;
   --accent-font: IBM Plex Mono, 'sans-serif';
@@ -14,3 +20,4 @@
   --accent-text-color: #ff0070;
   --background-text-color: #ff0070;
 }
+
