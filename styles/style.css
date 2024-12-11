@@ -1,6 +1,4 @@
 .page {
-  margin-left: auto;
-  margin-right: auto;
   background: var(--background-color);
   font-family: var(--accent-font);
   background-image: var(--background-image);
