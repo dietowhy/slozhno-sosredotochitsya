@@ -1,31 +1,35 @@
 .page.theme_light {
-  --background-color: #fff1f7;
+  --main-color: #fff1f7;
   --text-color: #353430;
-  --article-text-color: #353430;
-  --button-text-color: #353430;
+  --accent-color: #ff8dcb;
+  --focus-color: #ffc2e6;
+  --header-color: #353430;
+  --title-color: #353430;
+  --shadow-color: #ff0070;
+  --button-hover-color: rgb(50 49 45 / 0.4);
   --background-image: url(../images/cover-image-light.png);
-  --hover-color: rgba(50, 49, 45, 0.4);
-  --focus-color: rgba(53, 52, 48, 1);
-  --rec-visible: none;
-  --title-color: #FFC2E6;
-  --background-text-color: #ff8dcb;
-  --accent-text-color: #353430;
-  --accent-color-corner: #353430;
+}
+
+.theme_light .header__decoration {
+  visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-  --background-color: #fff1f7;
-  --text-color: #353430;
-  --article-text-color: #353430;
-  --button-text-color: #353430;
-  --background-image: url(../images/cover-image-light.png);
-  --hover-color: rgba(50, 49, 45, 0.4);
-  --focus-color: rgba(53, 52, 48, 1);
-  --rec-visible: none;
-  --title-color: #FFC2E6;
-  --background-text-color: #ff8dcb;
-  --accent-text-color: #353430;
-  --accent-color-corner: #353430;
- }
+
+  .page {
+    /* Дублируем переменные светлой темы */
+    --main-color: #fff1f7;
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+    --focus-color: #ffc2e6;
+    --header-color: #353430;
+    --title-color: #353430;
+    --shadow-color: #ff0070;
+    --button-hover-color: rgb(50 49 45 / 0.4);
+    --background-image: url(../images/cover-image-light.png);
+  }
+
+  .header__decoration {
+    visibility: hidden;
+  }
 }
