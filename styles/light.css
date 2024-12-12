@@ -17,7 +17,6 @@
 @media (prefers-color-scheme: light) {
 
   .page {
-    /* Дублируем переменные светлой темы */
     --main-color: #fff1f7;
     --text-color: #353430;
     --accent-color: #ff8dcb;

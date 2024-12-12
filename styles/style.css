@@ -1,6 +1,5 @@
 .page {
   color: var(--text-color, #f1b2ce);
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: var(--main-font, Helvetica, Arial, sans-serif);
   background-color: var(--main-color, #000028);
   background-image: var(--background-image);
@@ -66,7 +65,6 @@
 }
 
 .header__theme-menu-button {
-  /* border: 1px solid transparent; */
   border: none;
   padding: 1.5px 13px 2.9px;
   line-height: 18px;
@@ -143,16 +141,16 @@
 }
 
 .visually-hidden {
-  position: absolute; /* элемент вырывают из потока */
-  width: 1px; /* делают элемент очень маленьким, но таким, чтобы не пропал совсем */
+  position: absolute;
+  width: 1px; 
   height: 1px;
-  margin: -1px; /* элемент убирают из поля зрения, сдвинув на размер самого себя */
-  border: 0; /* убирают границу, она тоже может быть у каких-то элементов */
-  padding: 0; /* обнуляют отступы, они есть у некоторых элементов по умолчанию */
-  overflow: hidden; /* на всякий случай скрывают видимое за пределами блока */
+  margin: -1px; 
+  border: 0; 
+  padding: 0; 
+  overflow: hidden; 
   clip: rect(
     0 0 0 0
-  ); /* это свойство обрезает видимую область до нулевого значения */
+  ); 
 }
 
 .tips {
