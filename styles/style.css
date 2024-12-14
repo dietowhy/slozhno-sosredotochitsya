@@ -125,7 +125,7 @@
   color: var(--subtitle-color);
 }
 
-.main__paragraph-subtitle-first{
+.main__paragraph-subtitle-first {
   font-size: 18px;
 }
 
@@ -140,7 +140,7 @@
   font-size: 18px;
   line-height: 23.4px;
 }
-.main__paragraph-text-first{
+.main__paragraph-text-first {
   margin-top: 10px;
 }
 
@@ -219,6 +219,10 @@
 }
 
 @media (width < 768px) {
+
+  .main__paragraph-subtitle-first{
+    margin-top: 20px;
+  }
 
   .header__title {
     font-size: clamp(7.25rem, 5.0536rem + 9.9274vw, 9.8125rem);
