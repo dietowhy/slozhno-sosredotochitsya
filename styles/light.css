@@ -8,6 +8,7 @@
   --subtitle-color: #353430;
   --text-color: #353430;
   --rec-display: none;
+  --decorate-color-transparent: rgba(50, 49, 45, .4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -21,6 +22,7 @@
     --subtitle-color: #353430;
     --text-color: #353430;
     --rec-display: none;
+    --decorate-color-transparent: rgba(50, 49, 45, .4);
   }
   
 }
